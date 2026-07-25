@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a1528" />
+    <title>Formação SkS — Portal do aluno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="sidebar" aria-label="Menu principal">
+        <a class="brand" href="#visao-geral" aria-label="Formação SkS, início">
+          <span class="brand-mark">S<span>K</span>S</span>
+          <span class="brand-copy"><b>FORMAÇÃO</b><small>SKS DIGITAL SCHOOL</small></span>
+        </a>
+
+        <nav class="menu">
+          <button class="menu-item active" data-page="visao-geral">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4v9Zm0 7h6v-4H4v4Zm10 0h6v-9h-6v9Zm0-16v4h6V4h-6Z"/></svg>
+            Visão geral
+          </button>
+          <button class="menu-item" data-page="formacao">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 4 8 4.2-8 4.2-8-4.2L12 4Zm-5.5 8.5v4.2c0 1.6 2.5 3.1 5.5 3.1s5.5-1.5 5.5-3.1v-4.2L12 15.4l-5.5-2.9Z"/></svg>
+            Minha formação
+          </button>
+          <button class="menu-item" data-page="laboratorio">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6m-3 0v6l5 8.4A2.4 2.4 0 0 1 14.9 21H9.1A2.4 2.4 0 0 1 7 17.4L12 9m-3.8 6h7.6"/></svg>
+            Laboratório
+          </button>
+          <button class="menu-item" data-page="conexoes">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2m17-8a4 4 0 1 0-3.9-4.9M13 3.1A4 4 0 0 0 6.1 6 4 4 0 0 0 13 8.9 4 4 0 0 0 13 3.1Z"/></svg>
+            Conexões
+          </button>
+          <button class="menu-item" data-page="desempenho">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m6 10V4m6 16v-7m6 7V7"/></svg>
+            Meu desempenho
+          </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+          <button class="support" id="help-button"><span>?</span> Central de ajuda</button>
+          <div class="mini-profile">
+            <div class="avatar small">AM</div>
+            <div><b>Alex Martins</b><span>Turma Piloto 01</span></div>
+            <button class="dots" id="profile-menu" aria-label="Mais opções">•••</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <button class="mobile-menu" aria-label="Abrir menu"><i></i><i></i><i></i></button>
+          <div class="breadcrumb"><span>PORTAL DO ALUNO</span><strong id="page-title">Visão geral</strong></div>
+          <div class="top-actions">
+            <button class="round-button" id="notifications-button" aria-label="Notificações"><svg viewBox="0 0 24 24"><path d="M18 9a6 6 0 1 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><i></i></button>
+            <button class="profile-shortcut" id="profile-button" aria-label="Abrir perfil"><div class="avatar">AM</div><svg viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></svg></button>
+          </div>
+        </header>
+
+        <section id="visao-geral" class="view active-view">
+          <div class="welcome-row">
+            <div>
+              <p class="eyebrow">TERÇA, 15 DE JULHO</p>
+              <h1>Bom dia, Alex<span class="wave">✦</span></h1>
+              <p class="intro">Você está construindo o seu caminho. Vamos avançar hoje?</p>
+            </div>
+            <div class="streak"><span class="flame">✦</span><div><b>6 dias</b><small>de consistência</small></div></div>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="hero-card card">
+              <div class="hero-top"><span class="chip blue">SUA JORNADA</span><span class="journey-count">ETAPA 1 DE 5</span></div>
+              <h2>Escola Técnica</h2>
+              <p>Transforme curiosidade em base profissional.</p>
+              <div class="journey-line" aria-label="Progresso da jornada">
+                <div class="journey-point current"><i>1</i><span>Aprender</span></div><div class="journey-bar filled"></div>
+                <div class="journey-point"><i>2</i><span>Conviver</span></div><div class="journey-bar"></div>
+                <div class="journey-point"><i>3</i><span>Executar</span></div><div class="journey-bar"></div>
+                <div class="journey-point"><i>4</i><span>Conectar</span></div><div class="journey-bar"></div>
+                <div class="journey-point"><i>5</i><span>Especializar</span></div>
+              </div>
+              <div class="hero-footer"><span><b>62%</b> da sua base comum concluída</span><button class="text-button" data-page="formacao">Ver trilha <b>→</b></button></div>
+            </section>
+
+            <section class="progress-card card">
+              <div class="card-heading"><div><span class="chip orange">EM ANDAMENTO</span><h3>Base comum</h3></div><span class="percent">62%</span></div>
+              <div class="circular-progress"><svg viewBox="0 0 120 120"><circle class="track" cx="60" cy="60" r="49"/><circle class="progress" cx="60" cy="60" r="49"/></svg><div><b>18</b><span>de 29 aulas</span></div></div>
+              <button class="solid-button" data-page="formacao">Continuar aprendendo <span>→</span></button>
+            </section>
+          </div>
+
+          <div class="section-heading"><div><h2>Continue de onde parou</h2><p>Uma pequena ação agora aumenta o seu repertório.</p></div><button class="see-all" data-page="formacao">Ver formação completa <span>→</span></button></div>
+          <section class="lesson-card card">
+            <div class="lesson-visual"><div class="visual-grid"></div><span class="play">▶</span><i class="visual-label">MÓDULO 02</i></div>
+            <div class="lesson-content"><span class="overline">MARKETING DIGITAL · AULA 06</span><h3>Funil de vendas: da atenção à decisão</h3><p>Entenda como cada etapa conduz pessoas para a ação e transforme intenção em oportunidade.</p><div class="lesson-meta"><span>◷ 18 min restantes</span><span class="divider"></span><span>▣ Conteúdo prático</span></div></div>
+            <button class="continue-button" id="continue-lesson">Continuar <span>→</span></button>
+          </section>
+
+          <section class="bottom-grid">
+            <div class="challenges-wrap"><div class="section-heading compact"><div><h2>Desafios da semana</h2></div><button class="see-all" data-page="laboratorio">Abrir laboratório <span>→</span></button></div>
+              <div class="challenge-list">
+                <article class="challenge-item card"><div class="challenge-icon purple">✦</div><div><span>COMUNICAÇÃO</span><h3>Apresente sua proposta</h3><p>Entrega até sexta-feira</p></div><button class="arrow-button" data-challenge="proposal" aria-label="Abrir desafio">→</button></article>
+                <article class="challenge-item card"><div class="challenge-icon green">◌</div><div><span>ANÁLISE</span><h3>Leitura de campanha</h3><p>Começa em 2 dias</p></div><button class="arrow-button" data-challenge="data" aria-label="Abrir desafio">→</button></article>
+              </div>
+            </div>
+            <aside class="profile-card card"><div class="profile-card-header"><span class="chip lilac">SEU POTENCIAL</span><button aria-label="Ver detalhes" data-page="desempenho">↗</button></div><div class="profile-avatar"><div class="avatar big">AM</div><i></i></div><h3>Perfil em descoberta</h3><p>Continue explorando. Seus resultados vão indicar suas trilhas com mais afinidade.</p><div class="profile-meter"><div><span>Desafios concluídos</span><b>5 / 10</b></div><div class="meter"><i></i></div></div><button class="outline-button" data-page="desempenho">Ver mapa de competências</button></aside>
+          </section>
+        </section>
+
+        <section id="formacao" class="view">
+          <div class="page-heading"><p class="eyebrow">FORMAÇÃO SKS</p><h1>Minha formação</h1><p>Base comum antes da sua especialização. Aprenda, experimente e descubra onde você gera mais resultado.</p></div>
+          <div class="formation-layout">
+            <div class="modules">
+              <article class="module-card card done clickable-card" data-content="communication" tabindex="0"><div class="module-number">01</div><div><span>CONCLUÍDO</span><h3>Comunicação</h3><p>Comunicação verbal, digital e apresentação pessoal.</p></div><b class="check">✓</b></article>
+              <article class="module-card card current"><div class="module-number">02</div><div><span>EM ANDAMENTO · 62%</span><h3>Marketing Digital</h3><p>Funil, conteúdo, tráfego, CRM e leitura de mercado.</p><div class="meter"><i></i></div></div><button class="solid-button small-action" id="module-continue">Continuar</button></article>
+              <article class="module-card card clickable-card" data-content="ai" tabindex="0"><div class="module-number">03</div><div><span>PRÓXIMO</span><h3>Inteligência Artificial</h3><p>Ferramentas, automação e produtividade.</p></div><span class="lock">⌁</span></article>
+              <article class="module-card card clickable-card" data-content="business" tabindex="0"><div class="module-number">04</div><div><span>EM BREVE</span><h3>Negócios e Vendas</h3><p>Empreendedorismo, vendas e atendimento.</p></div><span class="lock">⌁</span></article>
+              <article class="module-card card clickable-card" data-content="production" tabindex="0"><div class="module-number">05</div><div><span>EM BREVE</span><h3>Produção Digital</h3><p>Foto, vídeo, áudio e conteúdo.</p></div><span class="lock">⌁</span></article>
+            </div>
+            <aside class="roadmap-card card"><span class="chip blue">ROADMAP SKS</span><h2>Você está aqui</h2><ol><li class="completed"><i>✓</i><div><b>Escola Técnica</b><span>Base e experimentação</span></div></li><li><i>2</i><div><b>Coworking</b><span>Convivência e networking</span></div></li><li><i>3</i><div><b>Agência-Escola</b><span>Projetos reais supervisionados</span></div></li><li><i>4</i><div><b>Hub Lifestyle</b><span>Comunidade e reputação</span></div></li><li><i>5</i><div><b>Centro de Excelência</b><span>Especialização e mentoria</span></div></li></ol></aside>
+          </div>
+        </section>
+
+        <section id="laboratorio" class="view">
+          <div class="page-heading"><p class="eyebrow">AGÊNCIA-ESCOLA</p><h1>Laboratório de experimentação</h1><p>Aprender fazendo: os desafios revelam suas competências e ajudam a definir sua próxima trilha.</p></div>
+          <div class="lab-banner card"><div><span class="chip orange">DESAFIO ATIVO</span><h2>Crie uma campanha para uma marca local</h2><p>Escolha um público, distribua o orçamento e apresente seu raciocínio.</p><button class="solid-button" id="start-challenge">Começar desafio <span>→</span></button></div><div class="budget"><span>ORÇAMENTO SIMULADO</span><b>R$ 1.000</b><small>Tempo estimado: 45 min</small></div></div>
+          <div class="lab-grid">
+            <article class="lab-card card clickable-card" data-challenge="campaign" tabindex="0"><div class="lab-icon blue-icon">◎</div><span>TRÁFEGO PAGO</span><h3>Campanha de performance</h3><p>Estratégia, público e orçamento.</p><b>02 desafios</b></article>
+            <article class="lab-card card clickable-card" data-challenge="content" tabindex="0"><div class="lab-icon rose-icon">✎</div><span>SOCIAL MEDIA</span><h3>Conteúdo que conecta</h3><p>Ideias, narrativa e consistência.</p><b>03 desafios</b></article>
+            <article class="lab-card card clickable-card" data-challenge="proposal" tabindex="0"><div class="lab-icon yellow-icon">↗</div><span>VENDAS</span><h3>Conversa que avança</h3><p>Escuta, diagnóstico e proposta.</p><b>02 desafios</b></article>
+            <article class="lab-card card clickable-card" data-challenge="data" tabindex="0"><div class="lab-icon green-icon">⌘</div><span>DADOS</span><h3>O que os números dizem?</h3><p>Leitura e otimização de resultados.</p><b>03 desafios</b></article>
+          </div>
+        </section>
+
+        <section id="conexoes" class="view">
+          <div class="page-heading"><p class="eyebrow">ECOSSISTEMA SKS</p><h1>Conexões</h1><p>O seu aprendizado ganha força com comunidade, projetos colaborativos e empresas parceiras.</p></div>
+          <div class="connection-stats"><article class="card"><b>14</b><span>alunos na sua turma</span></article><article class="card"><b>06</b><span>projetos colaborativos</span></article><article class="card"><b>03</b><span>empresas no laboratório</span></article></div>
+          <div class="connection-grid"><article class="community-card card"><span class="chip lilac">COMUNIDADE</span><h2>Turma Piloto 01</h2><p>Compartilhe uma ideia, peça ajuda ou encontre alguém para construir junto.</p><div class="faces"><i>JS</i><i>ML</i><i>RA</i><i>+11</i></div><button class="outline-button" id="open-community">Entrar na comunidade</button></article><article class="partner-card card"><span class="chip green">PRÓXIMA EXPERIÊNCIA</span><h2>Briefing com a Casa Verde</h2><p>Quinta-feira · 19h00</p><div class="partner-detail"><span>Projeto de conteúdo e tráfego para negócio local.</span><button class="solid-button small-action" id="confirm-event">Confirmar presença</button></div></article></div>
+        </section>
+
+        <section id="desempenho" class="view">
+          <div class="page-heading"><p class="eyebrow">MAPA DE COMPETÊNCIAS</p><h1>Meu desempenho</h1><p>Seu perfil é construído a partir de evidências: atividades, desafios e projetos.</p></div>
+          <div class="performance-layout"><article class="radar-card card"><div class="card-heading"><div><span class="chip blue">PERFIL ATUAL</span><h3>Competências em evolução</h3></div><span class="update">Atualizado hoje</span></div><div class="radar"><div class="radar-rings"></div><div class="radar-shape"></div><span class="r1">Comunicação</span><span class="r2">Criatividade</span><span class="r3">Dados</span><span class="r4">Organização</span><span class="r5">Vendas</span></div></article><article class="affinity-card card"><span class="chip orange">PRÓXIMAS DESCOBERTAS</span><h2>Suas afinidades aparecerão aqui.</h2><p>Conclua ao menos cinco desafios do laboratório para desbloquear suas trilhas recomendadas.</p><div class="unlock-progress"><span>Progresso</span><b>5 / 5</b><div class="meter"><i></i></div></div><button class="solid-button" data-page="laboratorio">Ir para o laboratório <span>→</span></button></article></div>
+          <div class="evidence card"><h2>Suas evidências</h2><div class="evidence-row"><span class="evidence-dot done-dot">✓</span><div><b>Comunicação · Apresente sua proposta</b><p>Entrega avaliada com destaque.</p></div><strong>86<span>/100</span></strong></div><div class="evidence-row"><span class="evidence-dot waiting-dot">◷</span><div><b>Dados · Leitura de campanha</b><p>Disponível em 2 dias.</p></div><strong class="muted">—</strong></div></div>
+        </section>
+      </main>
+    </div>
+    <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true"><section class="content-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" aria-label="Fechar">×</button><div id="modal-content"></div></section></div>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
